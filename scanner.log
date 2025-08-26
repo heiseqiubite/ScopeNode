@@ -1,0 +1,218 @@
+2025-08-26 15:52:49,615 - scanner - INFO - Connected to Redis: 101.132.153.5:6379
+2025-08-26 15:55:41,989 - scanner - INFO - Connected to Redis: 101.132.153.5:6379
+2025-08-26 15:55:42,378 - scanner - INFO - Gogo tool is available
+2025-08-26 15:55:42,421 - scanner - INFO - Redis connection pool established: 101.132.153.5:6379
+2025-08-26 15:55:42,454 - scanner - INFO - Starting Python Scanner...
+2025-08-26 15:55:42,464 - scanner - INFO - Node Name: python-scanner-001
+2025-08-26 15:55:42,484 - scanner - INFO - Version: 1.7.0
+2025-08-26 15:55:42,499 - scanner - INFO - Redis: 101.132.153.5:6379
+2025-08-26 15:55:42,507 - scanner - INFO - Mongodb: 192.168.50.154:27017
+2025-08-26 15:55:42,777 - scanner - INFO - Connected to MongoDB successfully
+2025-08-26 15:55:42,786 - scanner - INFO - Scanner started successfully
+2025-08-26 15:55:43,817 - scanner - INFO - Node registered successfully: python-scanner-001 - version 1.7.0
+2025-08-26 15:55:43,842 - scanner - INFO - Task manager started with max concurrent tasks: 1
+2025-08-26 15:55:47,573 - scanner - INFO - Received signal 2, shutting down...
+2025-08-26 15:55:47,601 - scanner - INFO - Stopping scanner...
+2025-08-26 15:55:47,611 - scanner - INFO - Node registration stopped
+2025-08-26 15:55:47,636 - scanner - INFO - Stopping task manager...
+2025-08-26 15:55:47,646 - scanner - INFO - Task manager stopped. Final stats: {'total_tasks': 0, 'completed_tasks': 0, 'failed_tasks': 0, 'retried_tasks': 0, 'killed_tasks': 0, 'running_tasks_count': 0, 'running_tasks_detail': [], 'max_concurrent_tasks': 1, 'success_rate': 0.0}
+2025-08-26 15:55:47,657 - scanner - INFO - Scanner stopped
+2025-08-26 16:14:51,058 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: False)
+2025-08-26 16:14:51,569 - scanner - INFO - NodeManager Redis connection established
+2025-08-26 16:14:51,594 - scanner - INFO - Scanner engine initialized with available scanners: ['gogo']
+2025-08-26 16:14:51,594 - scanner - INFO - TaskManager Redis connection pool established
+2025-08-26 16:14:52,766 - scanner - INFO - Gogo tool is available
+2025-08-26 16:14:52,776 - scanner - INFO - Scanner engine initialized with available scanners: ['gogo']
+2025-08-26 16:14:53,024 - scanner - INFO - Gogo tool is available
+2025-08-26 16:14:53,028 - scanner - INFO - Scanner engine initialized with available scanners: ['gogo']
+2025-08-26 16:14:53,111 - scanner - INFO - Gogo tool is available
+2025-08-26 16:15:08,019 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: False)
+2025-08-26 16:15:08,029 - scanner - INFO - NodeManager Redis connection established
+2025-08-26 16:15:08,044 - scanner - INFO - Scanner engine initialized with available scanners: ['gogo']
+2025-08-26 16:15:08,044 - scanner - INFO - TaskManager Redis connection pool established
+2025-08-26 16:15:08,056 - scanner - INFO - Starting Python Scanner...
+2025-08-26 16:15:08,067 - scanner - INFO - Node Name: python-scanner-001
+2025-08-26 16:15:08,076 - scanner - INFO - Version: 1.7.0
+2025-08-26 16:15:08,085 - scanner - INFO - Redis: 101.132.153.5:6379
+2025-08-26 16:15:08,085 - scanner - INFO - Mongodb: 192.168.50.154:27017
+2025-08-26 16:15:08,346 - scanner - INFO - MongoDB connection established: 192.168.50.154:27017
+2025-08-26 16:15:08,346 - scanner - INFO - Scanner started successfully
+2025-08-26 16:15:09,414 - scanner - INFO - Node registered successfully: python-scanner-001 - version 1.7.0
+2025-08-26 16:15:09,439 - scanner - INFO - Task manager started with max concurrent tasks: 1
+2025-08-26 16:15:20,756 - scanner - INFO - Received signal 2, shutting down...
+2025-08-26 16:15:20,765 - scanner - INFO - Stopping scanner...
+2025-08-26 16:15:20,777 - scanner - INFO - Node registration stopped
+2025-08-26 16:15:20,814 - scanner - INFO - Stopping task manager...
+2025-08-26 16:15:20,841 - scanner - INFO - Redis connection closed
+2025-08-26 16:15:20,842 - scanner - INFO - Task manager stopped. Final stats: {'total_tasks': 0, 'completed_tasks': 0, 'failed_tasks': 0, 'retried_tasks': 0, 'killed_tasks': 0, 'running_tasks_count': 0, 'running_tasks_detail': [], 'max_concurrent_tasks': 1, 'success_rate': 0.0}
+2025-08-26 16:15:20,919 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: True)
+2025-08-26 16:15:20,942 - scanner - INFO - Redis connection closed
+2025-08-26 16:15:20,951 - scanner - INFO - MongoDB connection closed
+2025-08-26 16:15:20,961 - scanner - INFO - Scanner stopped
+2025-08-26 16:15:21,041 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: True)
+2025-08-26 16:30:49,500 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: False)
+2025-08-26 16:30:49,510 - scanner - INFO - NodeManager Redis connection established
+2025-08-26 16:30:49,531 - scanner - INFO - Scanner engine initialized with available scanners: ['gogo']
+2025-08-26 16:30:49,531 - scanner - INFO - TaskManager Redis connection pool established
+2025-08-26 16:30:49,547 - scanner - INFO - Starting Python Scanner...
+2025-08-26 16:30:49,557 - scanner - INFO - Node Name: python-scanner-001
+2025-08-26 16:30:49,568 - scanner - INFO - Version: 1.7.0
+2025-08-26 16:30:49,579 - scanner - INFO - Redis: 101.132.153.5:6379
+2025-08-26 16:30:49,593 - scanner - INFO - Mongodb: 192.168.50.154:27017
+2025-08-26 16:30:49,817 - scanner - INFO - MongoDB connection established: 192.168.50.154:27017
+2025-08-26 16:30:49,818 - scanner - INFO - Scanner started successfully
+2025-08-26 16:30:50,844 - scanner - INFO - Node registered successfully: python-scanner-001 - version 1.7.0
+2025-08-26 16:30:50,855 - scanner - INFO - Task manager started with max concurrent tasks: 1
+2025-08-26 16:31:48,344 - scanner - INFO - All targets processed for task template 68ad70f1fae14aa6374a599e, template consumed
+2025-08-26 16:31:48,358 - scanner - INFO - Task begin: 68ad70f1fae14aa6374a599e - test2 - 10.66.95.33 (Running: 1/1)
+2025-08-26 16:31:48,368 - scanner - INFO - Task started. Running tasks: 1
+2025-08-26 16:31:48,430 - scanner - INFO - Gogo tool is available
+2025-08-26 16:31:48,431 - scanner - INFO - Using scanner: gogo for task 68ad70f1fae14aa6374a599e
+2025-08-26 16:31:48,432 - scanner - INFO - Starting gogo scan for target: 10.66.95.33
+2025-08-26 16:31:48,433 - scanner - INFO - Using vulnerability scan parameters from ee351f7eda4ca941de23bcd2018ce786: -p 1-65535 -t 500
+2025-08-26 16:31:48,434 - scanner - INFO - Executing: tools\gogo -i 10.66.95.33 -f tools\scan_results_10.66.95.33_1756197108.dat -p 1-65535 -t 500
+2025-08-26 16:31:48,438 - scanner - INFO - Gogo process started with PID: 5836
+2025-08-26 16:35:52,777 - scanner - INFO - Task stats: {'total_tasks': 1, 'completed_tasks': 0, 'failed_tasks': 0, 'retried_tasks': 0, 'killed_tasks': 0, 'running_tasks_count': 1, 'running_tasks_detail': [{'id': '68ad70f1fae14aa6374a599e', 'target': '10.66.95.33', 'pid': None, 'runtime': 244.42098736763}], 'max_concurrent_tasks': 1, 'success_rate': 0.0}
+2025-08-26 16:36:14,355 - scanner - INFO - Gogo scan completed for 10.66.95.33 in 265.92s
+2025-08-26 16:36:14,355 - scanner - INFO - Scan results saved to file: tools\scan_results_10.66.95.33_1756197108.dat
+2025-08-26 16:36:14,357 - scanner - INFO - Parsed 10 results from file tools\scan_results_10.66.95.33_1756197108.dat
+2025-08-26 16:36:14,357 - scanner - INFO - Cleaned up temporary scan file: tools\scan_results_10.66.95.33_1756197108.dat
+2025-08-26 16:36:14,366 - scanner - INFO - 解析到记录 10 条，其中有效资产 8 条
+2025-08-26 16:36:14,367 - scanner - ERROR - 处理gogo扫描结果错误: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-08-26 16:36:14,367 - scanner - ERROR - Failed to save scan results: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-08-26 16:36:14,368 - scanner - WARNING - Failed to save scan results for task 68ad70f1fae14aa6374a599e
+2025-08-26 16:36:14,368 - scanner - INFO - Scan completed successfully for task 68ad70f1fae14aa6374a599e
+2025-08-26 16:36:14,368 - scanner - INFO - Task 68ad70f1fae14aa6374a599e running with PID: 5836
+2025-08-26 16:36:14,406 - scanner - INFO - Task completed: 68ad70f1fae14aa6374a599e - test2
+2025-08-26 16:36:14,416 - scanner - INFO - Task finished. Running: 0, Finished: 1
+2025-08-26 16:40:39,368 - scanner - INFO - Received signal 2, shutting down...
+2025-08-26 16:40:40,208 - scanner - INFO - Stopping scanner...
+2025-08-26 16:40:40,230 - scanner - INFO - Node registration stopped
+2025-08-26 16:40:40,263 - scanner - INFO - Stopping task manager...
+2025-08-26 16:40:40,285 - scanner - INFO - Redis connection closed
+2025-08-26 16:40:40,285 - scanner - INFO - Task manager stopped. Final stats: {'total_tasks': 1, 'completed_tasks': 1, 'failed_tasks': 0, 'retried_tasks': 0, 'killed_tasks': 0, 'running_tasks_count': 0, 'running_tasks_detail': [], 'max_concurrent_tasks': 1, 'success_rate': 100.0}
+2025-08-26 16:40:40,341 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: True)
+2025-08-26 16:40:40,351 - scanner - INFO - Redis connection closed
+2025-08-26 16:40:40,362 - scanner - INFO - MongoDB connection closed
+2025-08-26 16:40:40,373 - scanner - INFO - Scanner stopped
+2025-08-26 16:40:40,431 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: True)
+2025-08-26 16:40:42,732 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: False)
+2025-08-26 16:40:42,752 - scanner - INFO - NodeManager Redis connection established
+2025-08-26 16:40:42,775 - scanner - INFO - Scanner engine initialized with available scanners: ['gogo']
+2025-08-26 16:40:42,775 - scanner - INFO - TaskManager Redis connection pool established
+2025-08-26 16:40:42,796 - scanner - INFO - Starting Python Scanner...
+2025-08-26 16:40:42,807 - scanner - INFO - Node Name: python-scanner-001
+2025-08-26 16:40:42,819 - scanner - INFO - Version: 1.7.0
+2025-08-26 16:40:42,831 - scanner - INFO - Redis: 101.132.153.5:6379
+2025-08-26 16:40:42,844 - scanner - INFO - Mongodb: 192.168.50.154:27017
+2025-08-26 16:40:43,094 - scanner - INFO - MongoDB connection established: 192.168.50.154:27017
+2025-08-26 16:40:43,097 - scanner - INFO - Scanner started successfully
+2025-08-26 16:40:44,185 - scanner - INFO - Node registered successfully: python-scanner-001 - version 1.7.0
+2025-08-26 16:40:44,242 - scanner - INFO - Task manager started with max concurrent tasks: 1
+2025-08-26 16:43:52,704 - scanner - INFO - Received signal 2, shutting down...
+2025-08-26 16:43:52,715 - scanner - INFO - Stopping scanner...
+2025-08-26 16:43:52,725 - scanner - INFO - Node registration stopped
+2025-08-26 16:43:52,737 - scanner - INFO - Stopping task manager...
+2025-08-26 16:43:52,747 - scanner - INFO - Redis connection closed
+2025-08-26 16:43:52,747 - scanner - INFO - Task manager stopped. Final stats: {'total_tasks': 0, 'completed_tasks': 0, 'failed_tasks': 0, 'retried_tasks': 0, 'killed_tasks': 0, 'running_tasks_count': 0, 'running_tasks_detail': [], 'max_concurrent_tasks': 1, 'success_rate': 0.0}
+2025-08-26 16:43:52,789 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: True)
+2025-08-26 16:43:52,810 - scanner - INFO - Redis connection closed
+2025-08-26 16:43:52,826 - scanner - INFO - MongoDB connection closed
+2025-08-26 16:43:52,842 - scanner - INFO - Scanner stopped
+2025-08-26 16:43:52,878 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: True)
+2025-08-26 16:43:54,380 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: False)
+2025-08-26 16:43:54,388 - scanner - INFO - NodeManager Redis connection established
+2025-08-26 16:43:54,403 - scanner - INFO - Scanner engine initialized with available scanners: ['gogo']
+2025-08-26 16:43:54,404 - scanner - INFO - TaskManager Redis connection pool established
+2025-08-26 16:43:54,416 - scanner - INFO - Starting Python Scanner...
+2025-08-26 16:43:54,428 - scanner - INFO - Node Name: python-scanner-001
+2025-08-26 16:43:54,440 - scanner - INFO - Version: 1.7.0
+2025-08-26 16:43:54,451 - scanner - INFO - Redis: 101.132.153.5:6379
+2025-08-26 16:43:54,462 - scanner - INFO - Mongodb: 192.168.50.154:27017
+2025-08-26 16:43:54,673 - scanner - INFO - MongoDB connection established: 192.168.50.154:27017
+2025-08-26 16:43:54,673 - scanner - INFO - Scanner started successfully
+2025-08-26 16:43:55,854 - scanner - INFO - Node registered successfully: python-scanner-001 - version 1.7.0
+2025-08-26 16:43:55,893 - scanner - INFO - Task manager started with max concurrent tasks: 1
+2025-08-26 16:44:23,345 - scanner - INFO - All targets processed for task template 68ad73e5fae14aa6374a5a0d, template consumed
+2025-08-26 16:44:23,358 - scanner - INFO - Task begin: 68ad73e5fae14aa6374a5a0d - test3 - 10.66.95.33 (Running: 1/1)
+2025-08-26 16:44:23,376 - scanner - INFO - Task started. Running tasks: 1
+2025-08-26 16:44:23,469 - scanner - INFO - Gogo tool is available
+2025-08-26 16:44:23,470 - scanner - INFO - Using scanner: gogo for task 68ad73e5fae14aa6374a5a0d
+2025-08-26 16:44:23,472 - scanner - INFO - Starting gogo scan for target: 10.66.95.33
+2025-08-26 16:44:23,473 - scanner - INFO - Using vulnerability scan parameters from ee351f7eda4ca941de23bcd2018ce786: -p all -t 1000
+2025-08-26 16:44:23,474 - scanner - INFO - Executing: tools\gogo -i 10.66.95.33 -f tools\scan_results_10.66.95.33_1756197863.dat -p all -t 1000
+2025-08-26 16:44:23,478 - scanner - INFO - Gogo process started with PID: 8132
+2025-08-26 16:44:26,228 - scanner - INFO - Gogo scan completed for 10.66.95.33 in 2.76s
+2025-08-26 16:44:26,229 - scanner - INFO - Scan results saved to file: tools\scan_results_10.66.95.33_1756197863.dat
+2025-08-26 16:44:26,230 - scanner - INFO - Parsed 5 results from file tools\scan_results_10.66.95.33_1756197863.dat
+2025-08-26 16:44:26,230 - scanner - INFO - Cleaned up temporary scan file: tools\scan_results_10.66.95.33_1756197863.dat
+2025-08-26 16:44:26,231 - scanner - INFO - 解析到记录 5 条，其中有效资产 3 条
+2025-08-26 16:44:26,287 - scanner - ERROR - 处理gogo扫描结果错误: batch op errors occurred, full error: {'writeErrors': [{'index': 1, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: ScopeSentry.asset index: host_1_port_1 dup key: { host: "10.66.95.33", port: "3389" }', 'keyPattern': {'host': 1, 'port': 1}, 'keyValue': {'host': '10.66.95.33', 'port': '3389'}, 'op': {'q': {'ip': '10.66.95.33', 'port': '3389', 'project': 'default'}, 'u': {'$set': {'project': 'default', 'taskName': 'test3', 'rootDomain': '10.66.95.33', 'time': '2025-08-26 16:44:26', 'ip': '10.66.95.33', 'host': '10.66.95.33', 'port': '3389', 'url': 'tcp://10.66.95.33:3389', 'type': 'tcp', 'service': 'tcp', 'statuscode': 0, 'title': '\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f', 'technologies': ['rdp'], 'metadata': '{"rdp": {"name": "rdp", "froms": {"1": true}, "tags": ["fingers", "tcpfingers"], "attributes": {"part": "a", "vendor": "", "product": ""}}}', 'iconcontent': '', 'tags': [], 'screenshot': '', 'rawheaders': '', 'webServer': ''}}, 'multi': False, 'upsert': True}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 1, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': [{'index': 0, '_id': ObjectId('68ad73ea550435bda620973a')}]}
+2025-08-26 16:44:26,288 - scanner - ERROR - Failed to save scan results: batch op errors occurred, full error: {'writeErrors': [{'index': 1, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: ScopeSentry.asset index: host_1_port_1 dup key: { host: "10.66.95.33", port: "3389" }', 'keyPattern': {'host': 1, 'port': 1}, 'keyValue': {'host': '10.66.95.33', 'port': '3389'}, 'op': {'q': {'ip': '10.66.95.33', 'port': '3389', 'project': 'default'}, 'u': {'$set': {'project': 'default', 'taskName': 'test3', 'rootDomain': '10.66.95.33', 'time': '2025-08-26 16:44:26', 'ip': '10.66.95.33', 'host': '10.66.95.33', 'port': '3389', 'url': 'tcp://10.66.95.33:3389', 'type': 'tcp', 'service': 'tcp', 'statuscode': 0, 'title': '\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f', 'technologies': ['rdp'], 'metadata': '{"rdp": {"name": "rdp", "froms": {"1": true}, "tags": ["fingers", "tcpfingers"], "attributes": {"part": "a", "vendor": "", "product": ""}}}', 'iconcontent': '', 'tags': [], 'screenshot': '', 'rawheaders': '', 'webServer': ''}}, 'multi': False, 'upsert': True}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 1, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': [{'index': 0, '_id': ObjectId('68ad73ea550435bda620973a')}]}
+2025-08-26 16:44:26,289 - scanner - WARNING - Failed to save scan results for task 68ad73e5fae14aa6374a5a0d
+2025-08-26 16:44:26,290 - scanner - INFO - Scan completed successfully for task 68ad73e5fae14aa6374a5a0d
+2025-08-26 16:44:26,290 - scanner - INFO - Task 68ad73e5fae14aa6374a5a0d running with PID: 8132
+2025-08-26 16:44:26,345 - scanner - INFO - Task completed: 68ad73e5fae14aa6374a5a0d - test3
+2025-08-26 16:44:26,356 - scanner - INFO - Task finished. Running: 0, Finished: 1
+2025-08-26 16:47:15,929 - scanner - INFO - Received signal 2, shutting down...
+2025-08-26 16:47:15,953 - scanner - INFO - Stopping scanner...
+2025-08-26 16:47:15,973 - scanner - INFO - Node registration stopped
+2025-08-26 16:47:15,989 - scanner - INFO - Stopping task manager...
+2025-08-26 16:47:16,015 - scanner - INFO - Redis connection closed
+2025-08-26 16:47:16,015 - scanner - INFO - Task manager stopped. Final stats: {'total_tasks': 1, 'completed_tasks': 1, 'failed_tasks': 0, 'retried_tasks': 0, 'killed_tasks': 0, 'running_tasks_count': 0, 'running_tasks_detail': [], 'max_concurrent_tasks': 1, 'success_rate': 100.0}
+2025-08-26 16:47:16,081 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: True)
+2025-08-26 16:47:16,106 - scanner - INFO - Redis connection closed
+2025-08-26 16:47:16,127 - scanner - INFO - MongoDB connection closed
+2025-08-26 16:47:16,127 - scanner - INFO - Scanner stopped
+2025-08-26 16:47:16,224 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: True)
+2025-08-26 16:51:48,509 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: False)
+2025-08-26 16:51:48,523 - scanner - INFO - NodeManager Redis connection established
+2025-08-26 16:51:48,535 - scanner - INFO - Scanner engine initialized with available scanners: ['gogo']
+2025-08-26 16:51:48,537 - scanner - INFO - TaskManager Redis connection pool established
+2025-08-26 16:51:48,552 - scanner - INFO - Starting Python Scanner...
+2025-08-26 16:51:48,562 - scanner - INFO - Node Name: python-scanner-001
+2025-08-26 16:51:48,576 - scanner - INFO - Version: 1.7.0
+2025-08-26 16:51:48,587 - scanner - INFO - Redis: 101.132.153.5:6379
+2025-08-26 16:51:48,592 - scanner - INFO - Mongodb: 192.168.50.154:27017
+2025-08-26 16:51:48,840 - scanner - INFO - MongoDB connection established: 192.168.50.154:27017
+2025-08-26 16:51:48,841 - scanner - INFO - Scanner started successfully
+2025-08-26 16:51:49,877 - scanner - INFO - Node registered successfully: python-scanner-001 - version 1.7.0
+2025-08-26 16:51:49,887 - scanner - INFO - Task manager started with max concurrent tasks: 1
+2025-08-26 16:51:59,035 - scanner - INFO - All targets processed for task template 68ad73e5fae14aa6374a5a0d, template consumed
+2025-08-26 16:51:59,047 - scanner - INFO - Task begin: 68ad73e5fae14aa6374a5a0d - test3 - 10.66.95.33 (Running: 1/1)
+2025-08-26 16:51:59,058 - scanner - INFO - Task started. Running tasks: 1
+2025-08-26 16:51:59,121 - scanner - INFO - Gogo tool is available
+2025-08-26 16:51:59,122 - scanner - INFO - Using scanner: gogo for task 68ad73e5fae14aa6374a5a0d
+2025-08-26 16:51:59,123 - scanner - INFO - Starting gogo scan for target: 10.66.95.33
+2025-08-26 16:51:59,123 - scanner - INFO - Using vulnerability scan parameters from ee351f7eda4ca941de23bcd2018ce786: -p all -t 1000
+2025-08-26 16:51:59,124 - scanner - INFO - Executing: tools\gogo -i 10.66.95.33 -f tools\scan_results_10.66.95.33_1756198319.dat -p all -t 1000
+2025-08-26 16:51:59,128 - scanner - INFO - Gogo process started with PID: 5312
+2025-08-26 16:52:01,795 - scanner - INFO - Gogo scan completed for 10.66.95.33 in 2.67s
+2025-08-26 16:52:01,796 - scanner - INFO - Scan results saved to file: tools\scan_results_10.66.95.33_1756198319.dat
+2025-08-26 16:52:01,796 - scanner - INFO - Parsed 5 results from file tools\scan_results_10.66.95.33_1756198319.dat
+2025-08-26 16:52:01,797 - scanner - INFO - Cleaned up temporary scan file: tools\scan_results_10.66.95.33_1756198319.dat
+2025-08-26 16:52:01,800 - scanner - INFO - 解析到记录 5 条，其中有效资产 3 条
+2025-08-26 16:52:01,820 - scanner - INFO - 处理完成 10.66.95.33: 资产: 2条, 漏洞: 0条
+2025-08-26 16:52:01,820 - scanner - INFO - Results processed: {'assets': 2, 'vulnerabilities': 0}
+2025-08-26 16:52:01,820 - scanner - INFO - Scan completed successfully for task 68ad73e5fae14aa6374a5a0d
+2025-08-26 16:52:01,820 - scanner - INFO - Task 68ad73e5fae14aa6374a5a0d running with PID: 5312
+2025-08-26 16:52:01,848 - scanner - INFO - Task completed: 68ad73e5fae14aa6374a5a0d - test3
+2025-08-26 16:52:01,857 - scanner - INFO - Task finished. Running: 0, Finished: 1
+2025-08-26 16:56:52,266 - scanner - INFO - Task stats: {'total_tasks': 1, 'completed_tasks': 1, 'failed_tasks': 0, 'retried_tasks': 0, 'killed_tasks': 0, 'running_tasks_count': 0, 'running_tasks_detail': [], 'max_concurrent_tasks': 1, 'success_rate': 100.0}
+2025-08-26 17:01:54,834 - scanner - INFO - Task stats: {'total_tasks': 1, 'completed_tasks': 1, 'failed_tasks': 0, 'retried_tasks': 0, 'killed_tasks': 0, 'running_tasks_count': 0, 'running_tasks_detail': [], 'max_concurrent_tasks': 1, 'success_rate': 100.0}
+2025-08-26 17:06:55,943 - scanner - INFO - Task stats: {'total_tasks': 1, 'completed_tasks': 1, 'failed_tasks': 0, 'retried_tasks': 0, 'killed_tasks': 0, 'running_tasks_count': 0, 'running_tasks_detail': [], 'max_concurrent_tasks': 1, 'success_rate': 100.0}
+2025-08-26 17:09:36,072 - scanner - INFO - Received signal 2, shutting down...
+2025-08-26 17:09:36,116 - scanner - INFO - Stopping scanner...
+2025-08-26 17:09:36,161 - scanner - INFO - Node registration stopped
+2025-08-26 17:09:36,207 - scanner - INFO - Stopping task manager...
+2025-08-26 17:09:36,242 - scanner - INFO - Redis connection closed
+2025-08-26 17:09:36,243 - scanner - INFO - Task manager stopped. Final stats: {'total_tasks': 1, 'completed_tasks': 1, 'failed_tasks': 0, 'retried_tasks': 0, 'killed_tasks': 0, 'running_tasks_count': 0, 'running_tasks_detail': [], 'max_concurrent_tasks': 1, 'success_rate': 100.0}
+2025-08-26 17:09:36,322 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: True)
+2025-08-26 17:09:36,346 - scanner - INFO - Redis connection closed
+2025-08-26 17:09:36,358 - scanner - INFO - MongoDB connection closed
+2025-08-26 17:09:36,367 - scanner - INFO - Scanner stopped
+2025-08-26 17:09:36,429 - scanner - INFO - Redis connection established: 101.132.153.5:6379 (pool: True)
+2025-08-26 17:09:40,218 - scanner - ERROR - Failed to connect to Redis: Error 10061 connecting to 10.33.155.74:6379. 由于目标计算机积极拒绝，无法连接。.
+2025-08-26 17:09:40,221 - scanner - ERROR - Failed to setup Redis connection in Logger: Error 10061 connecting to 10.33.155.74:6379. 由于目标计算机积极拒绝，无法连接。.
+2025-08-26 17:09:42,358 - scanner - ERROR - Failed to connect to Redis: Error 10061 connecting to 10.33.155.74:6379. 由于目标计算机积极拒绝，无法连接。.
+2025-08-26 17:09:42,361 - scanner - ERROR - Failed to setup Redis connection in NodeManager: Error 10061 connecting to 10.33.155.74:6379. 由于目标计算机积极拒绝，无法连接。.

@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  python-scanner:
+    image: scopenode:modify
+    container_name: python_node
+    
+    # 环境变量配置（可以覆盖config.yaml中的配置）
+    environment:
+      - NODE_NAME=10.33.155.74
+      - VERSION=1.7.0
+      - MAX_TASK_NUM=1
+      - DEBUG=false
+      - REDIS_HOST=10.33.155.74
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=0218eb100fee4fbcb90194070b77ab38
+      - MONGODB_HOST=10.33.155.74
+      - MONGODB_PORT=27017
+      - MONGODB_USERNAME=root
+      - MONGODB_PASSWORD=0218eb100fee4fbcb90194070b77ab38
+      - MONGODB_DATABASE=ScopeSentry
+    
+    # 挂载卷
+    volumes:
+      - ./python_node:/opt/python_node
