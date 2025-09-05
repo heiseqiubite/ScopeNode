@@ -1,4 +1,5 @@
-toos/
+tools/
 config.yaml
 scanner.log
 __pycache__/
+docker-compose.yml

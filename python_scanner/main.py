@@ -113,8 +113,6 @@ def print_banner():
          |___/                                                                
     """
     print(banner)
-    print("Python Scanner - ScopeSentry扫描节点")
-    print("版本: 1.0.0")
     print("-" * 70)
 
 async def main():
@@ -132,10 +130,3 @@ async def main():
         logger.error(f"Unexpected error: {e}")
     finally:
         await app.stop()
-
-if __name__ == "__main__":
-    try:
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        print("\nProgram interrupted by user")
-        sys.exit(0) 

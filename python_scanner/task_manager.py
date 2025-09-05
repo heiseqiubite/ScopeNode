@@ -428,12 +428,6 @@ class TaskManager:
                 # 清理已完成的任务
                 self._cleanup_finished_tasks()
                 
-                # 定期打印统计信息（每5分钟）
-                if time.time() - last_stats_time > 300:
-                    stats = self.get_stats()
-                    logger.info(f"Task stats: {stats}")
-                    last_stats_time = time.time()
-                
                 # 每3秒检查一次任务
                 await asyncio.sleep(3)
                 
