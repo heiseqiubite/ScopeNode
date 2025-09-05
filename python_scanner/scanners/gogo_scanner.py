@@ -7,6 +7,7 @@ Gogo扫描器插件
 import asyncio
 import subprocess
 import os
+import platform
 import time
 import json
 import zlib
@@ -29,6 +30,13 @@ class GogoScannerPlugin(BaseScannerPlugin):
         self._ensure_tools_directory()
         self._check_gogo_availability()
     
+    def _get_gogo_executable_path(self) -> str:
+        """获取gogo可执行文件的路径，根据操作系统自动调整"""
+        if platform.system() == "Windows":
+            return os.path.join(self.tools_path, "gogo.exe")
+        else:
+            return os.path.join(self.tools_path, "gogo")
+    
     def _ensure_tools_directory(self):
         """确保工具目录存在"""
         if not os.path.exists(self.tools_path):
@@ -37,13 +45,39 @@ class GogoScannerPlugin(BaseScannerPlugin):
     def _check_gogo_availability(self):
         """检查gogo工具是否可用"""
         try:
-            result = subprocess.run(['tools/gogo', '-h'], capture_output=True, text=True, timeout=10)
+            gogo_path = self._get_gogo_executable_path()
+            current_platform = platform.system()
+            
+            logging.getLogger('scanner').info(f"Checking gogo availability on {current_platform} platform")
+            logging.getLogger('scanner').debug(f"Gogo executable path: {gogo_path}")
+            
+            # 检查文件是否存在
+            if not os.path.exists(gogo_path):
+                logging.getLogger('scanner').error(f"Gogo executable not found at: {gogo_path}")
+                return
+            
+            # 在Linux/Unix系统上检查执行权限
+            if current_platform != "Windows":
+                import stat
+                file_stat = os.stat(gogo_path)
+                if not (file_stat.st_mode & stat.S_IEXEC):
+                    logging.getLogger('scanner').warning(f"Gogo executable at {gogo_path} is not executable")
+                    # 尝试添加执行权限
+                    try:
+                        os.chmod(gogo_path, file_stat.st_mode | stat.S_IEXEC)
+                        logging.getLogger('scanner').info(f"Added execute permission to {gogo_path}")
+                    except Exception as e:
+                        logging.getLogger('scanner').error(f"Failed to add execute permission: {e}")
+                        return
+            
+            result = subprocess.run([gogo_path, '-h'], capture_output=True, text=True, timeout=10)
             if result.returncode == 0:
-                logging.getLogger('scanner').info("Gogo tool is available")
+                logging.getLogger('scanner').info(f"Gogo tool is available at: {gogo_path} (Platform: {current_platform})")
             else:
-                logging.getLogger('scanner').warning("Gogo tool check returned non-zero exit code")
+                logging.getLogger('scanner').warning(f"Gogo tool check returned non-zero exit code for: {gogo_path}")
+                
         except FileNotFoundError:
-            logging.getLogger('scanner').error("Gogo tool not found! Please install gogo first.")
+            logging.getLogger('scanner').error(f"Gogo tool not found at: {self._get_gogo_executable_path()}! Please install gogo first.")
         except subprocess.TimeoutExpired:
             logging.getLogger('scanner').warning("Gogo tool check timeout")
         except Exception as e:
@@ -71,11 +105,13 @@ class GogoScannerPlugin(BaseScannerPlugin):
     
     def get_command_template(self) -> str:
         """获取gogo命令模板"""
-        return "tools/gogo -i {target} -f {output_file} {additional_args}"
+        gogo_path = self._get_gogo_executable_path()
+        return f"{gogo_path} -i {{target}} -f {{output_file}} {{additional_args}}"
     
     def _build_gogo_command(self, target: str, parameters: Dict, output_file: str) -> List[str]:
         """构建gogo命令"""
-        command = ["tools\\gogo", "-i"]
+        gogo_path = self._get_gogo_executable_path()
+        command = [gogo_path, "-i"]
         command.append(target)
         
         # 添加输出文件参数
